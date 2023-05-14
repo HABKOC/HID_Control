@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace HID_Control
+namespace ADB_Control
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace HID_Control
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HID_Ctrl());
+            Application.Run(new ADB_Ctrl());
         }
     }
 }
